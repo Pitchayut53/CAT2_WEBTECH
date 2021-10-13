@@ -1,0 +1,25 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="cat2.xsl"?>
+<!DOCTYPE CHRIST SYSTEM "cat2.dtd">
+<CHRIST>
+<CS>
+    <STU-NAME>Pitchayut Khumkrongsap</STU-NAME>
+    <STU-BRANCH>Computer Science</STU-BRANCH>
+    <STU-COLLEGE>Christ University</STU-COLLEGE>
+    <STU-EMAIL>pitchayut.khumkrongsap@cs.christuniversity.in</STU-EMAIL>
+</CS>
+
+<CS>
+    <STU-NAME>Pawan Waldia</STU-NAME>
+    <STU-BRANCH>Computer Application</STU-BRANCH>
+    <STU-COLLEGE>Christ University</STU-COLLEGE>
+    <STU-EMAIL>pawan.waldia@science.christuniversity.in</STU-EMAIL>
+</CS>
+
+<CS>
+    <STU-NAME>Tiyasha DAS</STU-NAME>
+    <STU-BRANCH>Computer Science</STU-BRANCH>
+    <STU-COLLEGE>Christ University</STU-COLLEGE>
+    <STU-EMAIL>tiyasha@cs.christuniversity.in</STU-EMAIL>
+</CS>
+</CHRIST>

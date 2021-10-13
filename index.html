@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JavaScript Validation Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="form-style-8">
+    <div id="error"></div>
+    <form id="form" action="#" method="GET">
+        <h2>Registration Form</h2>
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" onkeypress="return /[a-z]/i.test(event.key)" required><br>
+            <label for="phone">Phone Number</label>
+            <input id="phone" name="phone" type="number" required><br>
+            <label for="password">Password</label>
+            <input type="password" id="textbox1"/>
+            <input type="button" id="Validate" onclick="ValidatePassword()" value="Validate" /><br>
+
+                <script type="text/javascript">
+                    function ValidatePassword() {
+                        var regex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[#$@!%&*?])[A-Za-z\d#$@!%&*?]{10,12}$/;
+                        var txt = document.getElementById("textbox1");
+                        if (!regex.test(txt.value)) {
+                            alert("Password strength is not good.");
+                        } else {
+                            alert("Password strength is good.");
+                        }
+                    }
+                </script>
+
+            <br><label for="age">Age</label>
+            <input id="age" name="age" type="number" required><br>
+            <label for="uname">Username</label>
+            <input id="uname" name="uname" type="text" required><br>
+        <button type="submit" id="submit">Submit</button>
+    </form>
+</div>
+</body>
+</html>
